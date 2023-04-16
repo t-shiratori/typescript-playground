@@ -4,9 +4,11 @@ import viteLogo from '/vite.svg';
 import { setupCounter } from './counter';
 import { run as factoryMethodPatternRun } from './factoryMethodPattern';
 import { run as factoryPatternRun } from './factoryPattern';
+import { run as observerPatternRun } from './observerPattern';
 
 factoryPatternRun();
 factoryMethodPatternRun();
+observerPatternRun();
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
